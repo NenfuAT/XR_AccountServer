@@ -1,4 +1,4 @@
-# 24AuthorizationServer
+# XR_Account_Server
 
 ## 概要
-自作OAuth認可サーバ
+自作OAuthアカウント登録/ログイン用
