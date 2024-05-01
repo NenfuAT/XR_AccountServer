@@ -1,0 +1,13 @@
+services: 
+  react-app:
+    container_name: ${AUTHORIZATION_FRONT_CONTAINER_HOST}
+    hostname: ${AUTHORIZATION_HOST}
+    build:
+      context: .
+      dockerfile: ./docker/next/Dockerfile
+    volumes:
+      - ./src:/next/src/app/auth_front
+    #command: sh -c "cd react-sample && yarn start"
+    ports:
+      - "3000:3000"
+    stdin_open: true 
