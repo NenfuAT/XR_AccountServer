@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: ./docker/next/Dockerfile
     volumes:
-      - ./src:/next/src/app/auth_front
+      - ./src:/next/src/app
     #command: sh -c "cd react-sample && yarn start"
     ports:
       - "3000:3000"
