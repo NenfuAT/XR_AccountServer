@@ -1,4 +1,4 @@
-# XR_Account_Server
+# mr-platform-login-server
 
 ## 概要
-自作OAuthアカウント登録/ログイン用
+自作OAuthアカウント登録/ログイン用フロント
